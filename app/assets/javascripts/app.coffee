@@ -1,0 +1,1 @@
+grovel = angular.module 'grovel',[]
