@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: grovel_production
-  username: grovel
+  username: root
   password: <%= ENV['GROVEL_DATABASE_PASSWORD'] %>
